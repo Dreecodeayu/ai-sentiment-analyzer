@@ -1,0 +1,14 @@
+# Backend
+sentimentanalyzer/target/
+*.log
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Secrets
+sentimentanalyzer/src/main/resources/application.properties
+
+# IDE
+.idea/
+.vscode/
