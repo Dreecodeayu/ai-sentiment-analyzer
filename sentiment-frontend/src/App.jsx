@@ -5,7 +5,7 @@ function App() {
   const [result, setResult] = useState("null");
 
   const handleAnalyze = async() => {
-    const response = await fetch("http://localhost:8080/analyze",{
+    const response = await fetch("https://ai-sentiment-analyzer-rn71.onrender.com",{
       method:"POST",
       headers:{
         "Content-Type":"application/json",
